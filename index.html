@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!-- Portals - Minecraft Art Gallery -->
+<html lang="en">
+<head>
+    <title>Portals Minecraft Art</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Minecraft posters, wallpapers & fan art collection">
+    <meta name="keywords" content="Minecraft,Posters,Wallpapers,Art,Pixel Art,Blocks">
+    <style>
+        body {
+            background: #1a1a1a;
+            color: #f0f0f0;
+            font-family: 'Minecraft', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        @font-face {
+            font-family: 'Minecraft';
+            src: url('https://fonts.cdnfonts.com/s/31392/MinecraftTen-VGGxx.woff') format('woff');
+        }
+        header {
+            background: #2d2d2d;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #3d3d3d;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #55ff55;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .art-item {
+            border: 3px solid #555;
+            background: #2a2a2a;
+            padding: 15px;
+            text-align: center;
+        }
+        .art-item img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #444;
+        }
+        footer {
+            background: #2d2d2d;
+            padding: 20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portals Minecraft Art Gallery</h1>
+    </header>
+    
+    <nav>
+        <a href="#posters">Posters</a>
+        <a href="#wallpapers">Wallpapers</a>
+        <a href="#fan-art">Fan Art</a>
+        <a href="#downloads">Downloads</a>
+    </nav>
+
+    <section class="gallery" id="posters">
+        <div class="art-item">
+            <img src="poster1.jpg" alt="Creeper Explosion Poster">
+            <h3>Creeper Explosion</h3>
+            <p>High-quality pixel art poster</p>
+        </div>
+        <div class="art-item">
+            <img src="poster2.jpg" alt="Enderman Portal Art">
+            <h3>Enderman Portal</h3>
+            <p>Glow-in-the-dark design</p>
+        </div>
+    </section>
+
+    <section class="gallery" id="wallpapers">
+        <div class="art-item">
+            <img src="wallpaper1.jpg" alt="Minecraft Landscape">
+            <h3>4K Mountain Biome</h3>
+            <p>Desktop & mobile versions</p>
+        </div>
+        <div class="art-item">
+            <img src="wallpaper2.jpg" alt="Nether Fortress">
+            <h3>Nether Fortress</h3>
+            <p>Dark theme optimized</p>
+        </div>
+    </section>
+
+    <section class="gallery" id="fan-art">
+        <div class="art-item">
+            <img src="fanart1.jpg" alt="Steve & Alex Adventure">
+            <h3>Heroes of the Overworld</h3>
+            <p>Community submission</p>
+        </div>
+        <div class="art-item">
+            <img src="fanart2.jpg" alt="Redstone Creation">
+            <h3>Mechanical Marvel</h3>
+            <p>Complex redstone build</p>
+        </div>
+    </section>
+
+    <section id="downloads">
+        <h2 style="text-align:center; margin:30px 0;">Free Downloads</h2>
+        <div style="text-align:center; padding:20px;">
+            <a href="minecraft-wallpaper-pack.zip" download style="color:#55ff55; font-size:1.2em;">
+                Download HD Wallpaper Pack
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Portals Art Gallery &copy; 2024 | All Minecraft assets belong to Mojang AB</p>
+    </footer>
+</body>
+</html>
